@@ -6,6 +6,9 @@ resources:
 - argocd/namespace-connect-direct.yaml
 - argocd/serviceaccounts-connect-direct.yaml
 - argocd/sterling-cd-clusterwide.yaml
+- argocd/namespace-ibm-common-services.yaml
+- argocd/namespace-tools.yaml
+- argocd/namespace-ci.yaml
 patches:
 - target:
     group: argoproj.io
