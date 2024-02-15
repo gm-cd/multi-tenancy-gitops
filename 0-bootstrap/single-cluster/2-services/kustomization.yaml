@@ -6,7 +6,7 @@ resources:
 - argocd/instances/ibm-connect-direct.yaml
 
 - argocd/operators/ibm-apic-operator.yaml
-- argocd/instances/ibm-apic-instance.yaml
+# - argocd/instances/ibm-apic-instance.yaml
 - argocd/operators/ibm-datapower-operator.yaml
 - argocd/operators/ibm-foundations.yaml
 - argocd/operators/ibm-catalogs.yaml
