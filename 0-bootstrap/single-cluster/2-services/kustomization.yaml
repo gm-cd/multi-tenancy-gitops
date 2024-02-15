@@ -4,6 +4,12 @@ resources:
 ## Connect Direct
 - argocd/instances/ibm-connect-direct-setup.yaml
 - argocd/instances/ibm-connect-direct.yaml
+
+- argocd/operators/ibm-apic-operator.yaml
+- argocd/instances/ibm-apic-instance.yaml
+- argocd/operators/ibm-datapower-operator.yaml
+- argocd/operators/ibm-foundations.yaml
+- argocd/operators/ibm-catalogs.yaml
 # SCCM
 # - argocd/instances/ibm-sccm-db2.yaml
 # - argocd/instances/ibm-sccm-setup.yaml
